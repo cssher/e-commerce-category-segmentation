@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/e-commerce-category-segmentation/static/css/main.bcd1cba6.chunk.css",
+    "main.js": "/e-commerce-category-segmentation/static/js/main.c24ca065.chunk.js",
+    "main.js.map": "/e-commerce-category-segmentation/static/js/main.c24ca065.chunk.js.map",
+    "runtime-main.js": "/e-commerce-category-segmentation/static/js/runtime-main.f3817855.js",
+    "runtime-main.js.map": "/e-commerce-category-segmentation/static/js/runtime-main.f3817855.js.map",
+    "static/css/2.db46f67d.chunk.css": "/e-commerce-category-segmentation/static/css/2.db46f67d.chunk.css",
+    "static/js/2.d6cecb7f.chunk.js": "/e-commerce-category-segmentation/static/js/2.d6cecb7f.chunk.js",
+    "static/js/2.d6cecb7f.chunk.js.map": "/e-commerce-category-segmentation/static/js/2.d6cecb7f.chunk.js.map",
+    "index.html": "/e-commerce-category-segmentation/index.html",
+    "precache-manifest.f21aff7b90e98359267d61cbcff93a29.js": "/e-commerce-category-segmentation/precache-manifest.f21aff7b90e98359267d61cbcff93a29.js",
+    "service-worker.js": "/e-commerce-category-segmentation/service-worker.js",
+    "static/css/2.db46f67d.chunk.css.map": "/e-commerce-category-segmentation/static/css/2.db46f67d.chunk.css.map",
+    "static/css/main.bcd1cba6.chunk.css.map": "/e-commerce-category-segmentation/static/css/main.bcd1cba6.chunk.css.map",
+    "static/js/2.d6cecb7f.chunk.js.LICENSE": "/e-commerce-category-segmentation/static/js/2.d6cecb7f.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f3817855.js",
+    "static/css/2.db46f67d.chunk.css",
+    "static/js/2.d6cecb7f.chunk.js",
+    "static/css/main.bcd1cba6.chunk.css",
+    "static/js/main.c24ca065.chunk.js"
+  ]
+}
