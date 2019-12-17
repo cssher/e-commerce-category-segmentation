@@ -10,10 +10,11 @@ import {
   Legend,
   Bar
 } from "recharts";
-import ParetoChart from "././table/ParetoChart";
+import Example from "././table/ParetoChart";
 import BootTable from "./table/BootTable";
 
 import "./App.css";
+import Example from "././table/ParetoChart";
 
 class App extends Component {
   constructor(props) {
@@ -143,7 +144,7 @@ class App extends Component {
             </BarChart>
           </div>
           <div className="HorizontalBar">
-            <ParetoChart />
+            <Example />
           </div>
         </div>
         <div className="table-chart">
