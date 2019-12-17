@@ -2,7 +2,7 @@ import React from "react";
 
 import ParetoChart from "pareto-chart";
 
-class Example extends React.Component {
+class ParetoExample extends React.Component {
   render() {
     return (
       <ParetoChart
@@ -22,4 +22,4 @@ class Example extends React.Component {
   }
 }
 
-export default Example;
+export default ParetoExample;
