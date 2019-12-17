@@ -10,7 +10,7 @@ import {
   Legend,
   Bar
 } from "recharts";
-import Table from "./table/Table";
+import ParetoChart from "././table/ParetoChart";
 import BootTable from "./table/BootTable";
 
 import "./App.css";
@@ -117,7 +117,6 @@ class App extends Component {
             <li className="li">
               Total Categories : {this.state.totalCategories}
             </li>
-            <li className="li">Total Revenue : ${this.state.totalRevenue}</li>
             <li className="li">
               Revenue from Best Sellers : ${this.state.revenueBestSellers}
             </li>
@@ -144,23 +143,7 @@ class App extends Component {
             </BarChart>
           </div>
           <div className="HorizontalBar">
-            <BarChart
-              width={600}
-              height={250}
-              margin={{ top: 20, right: 10, left: 10, bottom: 10 }}
-              data={revenueData}
-            >
-              <CartesianGrid strokeDasharray="3 3" />
-              <YAxis dataKey="revenueValue" />
-              <XAxis dataKey="segments" />
-              <Tooltip />
-              <Legend horizontalAlign="top" height={5} iconType="circle" />
-              <Bar
-                dataKey="revenueValue"
-                fill="#8884d8"
-                label={{ fill: "red", fontSize: 20 }}
-              />
-            </BarChart>
+            <ParetoChart />
           </div>
         </div>
         <div className="table-chart">

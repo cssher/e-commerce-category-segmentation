@@ -139,3 +139,21 @@ const BootTable = function() {
 };
 
 export default BootTable;
+
+// <BarChart
+// width={600}
+// height={250}
+// margin={{ top: 20, right: 10, left: 10, bottom: 10 }}
+// data={revenueData}
+// >
+// <CartesianGrid strokeDasharray="3 3" />
+// <YAxis dataKey="revenueValue" />
+// <XAxis dataKey="segments" />
+// <Tooltip />
+// <Legend horizontalAlign="top" height={5} iconType="circle" />
+// <Bar
+//   dataKey="revenueValue"
+//   fill="#8884d8"
+//   label={{ fill: "red", fontSize: 20 }}
+// />
+// </BarChart>
